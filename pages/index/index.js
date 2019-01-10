@@ -1,8 +1,10 @@
 //index.js
 //获取应用实例
 //openId:o3FoA0eHrrSGvKhIz2sOfFYPnZXA
+//也曾指尖弹出盛夏。。。。
 const app = getApp()
 const TOKEN_URL = 'token/add';
+//晚风吹起你斌简的白发，画中的你低着头说话，我也曾感叹世界之大
 Page({
   data: {
     motto: 'Hello',
