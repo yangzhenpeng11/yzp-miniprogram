@@ -1,0 +1,17 @@
+<import src = '../movie/movie.wxml'/>
+<template name = 'movieListTmeplate'>
+  <view>
+    <view>
+      <text>正在热映</text>
+      <view>
+        <text>更多</text>
+        <image src = '/images/rightArrow.png'></image>
+      </view>
+    </view>
+    <view class='movieList-movieContiner'>
+    <template is='movieTmeplate'/>
+    <template is='movieTmeplate'/>
+    <template is='movieTmeplate'/>
+    </view>
+  </view>
+</template>

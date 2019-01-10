@@ -1,0 +1,5 @@
+@import '../movie/movie.wxss';
+.movieList-movieContiner{
+  display: flex;
+  justify-content: space-around;
+}

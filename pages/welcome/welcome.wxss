@@ -1,0 +1,39 @@
+/* pages/welcome/welcome.wxss */
+.container{
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  border-radius: 50%;
+  margin-top: 160rpx;
+}
+.user-name{
+  font-size: 32rpx;
+  font-weight: bold;
+  font-family: MicroSoft Yahei;
+  margin-top: 50rpx;
+}
+
+.moto-container{
+  display: flex;
+  justify-content: center;
+  width:200rpx;
+  height: 80rpx;
+  border: 1rpx solid red;
+  border-radius: 10rpx;
+  margin-top: 100rpx;
+}
+.moto{
+  line-height: 80rpx;
+  font-size: 22rpx;
+  font-weight: bold;
+  font-family: MicroSoft Yahei;
+}
+
+page{
+  background-color: #
+}
+

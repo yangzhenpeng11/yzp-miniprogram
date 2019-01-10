@@ -1,0 +1,26 @@
+<!--pages/movie-detail/movie-detail.wxml-->
+<!-- <view class='container'>
+  <view class='head-img-container'>
+    <image class='head-img' src='/images/bg_01.png' mode='aspectFit'></image>    
+  </view>
+  <view class='head-img-hover' data-src='' catchtap='viewMoviePostImg'>
+    <view class='main-title'>大话西游</view>
+    <view class='sub-title'></view>
+    <view class='like'>
+      <text class='highlight-font'>1万+人喜欢地位金佛文件噢附件为飞机哦金佛微积分</text>
+      <text class='highlight-font'>5325条评论</text>
+    </view>
+  </view>
+  <view class='head-img-hover' data-src='' catchtap='viewMoviePostImg'>
+    <view class='main-title'>大话西游</view>
+    <view class='sub-title'></view>
+    <view class='like'>
+      <text class='highlight-font'>1万+人喜欢</text>
+      <text class='highlight-font'>5325条评论</text>
+    </view>
+  </view>
+  <image class='movie-img' src='/images/movie.jpg' mode='widthFix'></image>
+
+</view> -->
+
+<image class='movie-img' src='/images/movie.jpg' mode='aspectFit'></image>

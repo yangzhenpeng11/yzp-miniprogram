@@ -1,0 +1,20 @@
+.starts-container{
+  display: flex;
+  align-items: center;
+}
+
+.starts{
+  display: flex;
+  height: 17rpx;
+}
+
+.starts image{
+  width: 17rpx;
+  height: 17rpx;
+}
+
+.starts-score{
+  line-height: 24rpx;
+  font-size: 24rpx;
+  color:#666;
+}

@@ -1,0 +1,17 @@
+@import '../starts/starts.wxss';
+.movie-continer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.movie-movieImg{
+  width: 200rpx;
+  height:266rpx;
+}
+
+.movie-name{
+  font-size: 30rpx;
+  line-height: 30rpx;
+  color: #666;
+}

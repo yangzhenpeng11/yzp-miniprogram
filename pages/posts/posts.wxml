@@ -1,0 +1,36 @@
+<!--pages/posts/posts.wxml-->
+<import src="../../templates/movie/movie.wxml"/>
+<view>
+  <swiper indicator-dots='true' indicator-color='white' autoplay='true' interval='5000'>
+    <swiper-item>
+      <image src='/images/film_image01.png'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='/images/film_image03.png'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='/images/film_image04.png'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='/images/film_image05.png'></image>
+    </swiper-item>
+  </swiper>
+
+  <view class='post-container' catchtap='onItemClick'>
+    <view class='post-author-date'>
+      <image class='post-author' src='/images/logo_jiahe.png'></image>
+      <text class='post-date'>Nov 25 2016</text>
+    </view>
+    <text class='post-title'>测试标题 消失的爱人</text>
+    <image class='post-image' src='/images/bg_01.png'></image>
+    <text class='post-content'>及违法加我为金佛文件覅近段时间佛is解放了开始节点付首付看时间覅降温哦附近金佛文件非叫我金佛文件佛以王府井搜飞机鸡胸是是恐惧诶呦</text>
+    <view class='post-like'>
+      <image class='post-like-image' src='/images/bg_02.png'></image>
+      <text class='post-like-font'>留言</text>
+      <image class='post-like-image' src='/images/bg_02.png'></image>
+      <text class='post-like-font'>点赞</text>
+    </view>
+  </view>
+
+  <template is = 'movieTmeplate'/>
+</view>

@@ -1,0 +1,23 @@
+<!--pages/posts/posts-detail/posts-detail.wxml-->
+<view>
+  <view class='description'>几下奇偶额及服务金额佛为王府井哦围殴覅是金佛文件佛为文件哦以欧尚见覅偶而文件覅奇偶发我佩服我飞机的烦恼烦恼金佛文件佛教佛为降温哦为即将佛为我就饿哦覅叫我if鹅口疮是哦价位覅激怒和管控和服务不好记笔记复合肥</view>
+  <view style='display:flex;flex-direction: column;justify-content:center'>
+    <view class='containerImg2'>
+      <image src='/images/logo_jiahe.png'></image>
+      <image src='/images/logo_jiahe.png'></image>
+    </view>
+    <view class='line2'></view>
+  </view>
+  <view style='display:flex;'>
+    <image class='musicImg' src='/images/logo_jiahe.png' catchtap='onMusicTap'></image>
+
+    <audio poster="{{poster}}" name="{{name}}" author="{{author}}" src="{{src}}" id="myAudio" loop bindplay="funplay" bindpause="funpause" bindtimeupdate="funtimeupdate" bindended="funended" binderror="funerror"></audio>
+    <view>测试音频文控件是否占位？</view>
+  </view>
+  <button type="primary" bindtap="audioPlay">播放</button>
+  <button type="primary" bindtap="audioPause">暂停</button>
+  <button type="primary" bindtap="audio14">设置当前播放时间为14秒</button>
+  <button type="primary" bindtap="audioStart">回到开头</button>
+
+  
+</view>

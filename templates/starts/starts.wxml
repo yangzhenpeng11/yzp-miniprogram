@@ -1,0 +1,12 @@
+<template name='startsTmeplate'>
+  <view class='starts-container'>
+    <view class='starts'>
+      <image src='/images/iconfont-rater.png'></image>
+      <image src='/images/iconfont-rater.png'></image>
+      <image src='/images/iconfont-rater.png'></image>
+      <image src='/images/iconfont-rater.png'></image>
+      <image src='/images/iconfont-rater.png'></image>
+    </view>
+    <text class='starts-score'>评分：8.9</text>
+  </view>
+</template>

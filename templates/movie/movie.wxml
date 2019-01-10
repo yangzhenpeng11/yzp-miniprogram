@@ -1,0 +1,8 @@
+<import src='../starts/starts.wxml'/>
+<template name='movieTmeplate'>
+  <view class='movie-continer'>
+    <image class='movie-movieImg' src='/images/movie.jpg'></image>
+    <text class='movie-name'>电影模板</text>
+    <template is = "startsTmeplate"/>
+  </view>
+</template>
