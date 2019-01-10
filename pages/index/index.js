@@ -2,13 +2,13 @@
 //获取应用实例
 //openId:o3FoA0eHrrSGvKhIz2sOfFYPnZXA
 const app = getApp()
-const TOKEN_URL = 'https://app.dadicinema.com/token/add';
+const TOKEN_URL = '';
 Page({
   data: {
-    motto: 'Hello World',
+    motto: '',
     userInfo: {},
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    canIUse: false
   },
   //事件处理函数
   bindViewTap: function() { 
