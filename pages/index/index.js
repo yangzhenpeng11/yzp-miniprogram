@@ -74,5 +74,8 @@ Page({
 
   onSubmit: function (event) {
     console.log(event);
+  },
+  onUnload:function(){
+    console.log('创建index页面的onUnload()方法');
   }
 })
