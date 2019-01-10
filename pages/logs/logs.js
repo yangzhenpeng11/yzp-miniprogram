@@ -1,6 +1,6 @@
 //logs.js
 const util = require('../../utils/util.js')
-
+//逆着光行走人风吹雨打
 Page({
   data: {
     logs: []

@@ -1,6 +1,7 @@
 //index.js
 //获取应用实例
 //openId:o3FoA0eHrrSGvKhIz2sOfFYPnZXA
+//起风了，如今走过这世间，万般留恋，翻过世界不通过笑脸
 const app = getApp()
 const TOKEN_URL = 'token/add';
 Page({
