@@ -2,13 +2,13 @@
 //获取应用实例
 //openId:o3FoA0eHrrSGvKhIz2sOfFYPnZXA
 const app = getApp()
-const TOKEN_URL = '';
+const TOKEN_URL = 'token/add';
 Page({
   data: {
-    motto: '',
+    motto: 'Hello',
     userInfo: {},
     hasUserInfo: false,
-    canIUse: false
+    canIUse: true
   },
   //事件处理函数
   bindViewTap: function() { 
