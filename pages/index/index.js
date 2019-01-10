@@ -77,5 +77,16 @@ Page({
   },
   onUnload:function(){
     console.log('创建index页面的onUnload()方法');
+  },
+  //提示
+  toast:function(hint){
+    wx.showToast({
+      icon:'none',
+      title: hint,
+    })
+    let timer = setTimeout(function(){
+      wx.hideLoading();
+      clearTimeout(timer);
+    },1000);
   }
 })
