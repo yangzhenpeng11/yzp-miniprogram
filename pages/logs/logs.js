@@ -14,5 +14,12 @@ Page({
   },
   onShow:function(){
     console.log('创建logs页的onShow()方法');
-  }
+  },
+  onReady:function(){
+
+  },
+  onHide:function(){
+
+  },
+  onUnload:function(){}
 })
