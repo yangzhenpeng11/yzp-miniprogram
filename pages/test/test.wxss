@@ -1,0 +1,56 @@
+/* pages/test/test.wxss */
+.c{
+  position: relative;
+  z-index: 1000;
+  width:100rpx;
+  height:500rpx;
+  background:red
+}
+.movableContainer{
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 800rpx;
+  overflow: hidden;
+  background-color: rgb(97, 172, 147);
+  margin-bottom: 200rpx;
+}
+
+movable-view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100rpx;
+  width: 100rpx;
+  background: #1AAD19;
+  color: #fff;
+}
+
+movable-area { 
+  height: 300rpx;
+  width: 300rpx;
+  background-color: #ccc;
+  overflow: hidden;
+  transform:  translateX(50%);
+}
+
+
+
+
+.father{
+  width: 500rpx;
+  height: 500rpx;
+  background:#1AAD19;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+
+.son{
+  width: 50rpx;
+  height: 50rpx;
+  background:red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
