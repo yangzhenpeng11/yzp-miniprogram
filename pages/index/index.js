@@ -1,7 +1,7 @@
 //index.js
 //获取应用实例
 //openId:o3FoA0eHrrSGvKhIz2sOfFYPnZXA
-//也曾指尖弹出盛夏。。。。
+//也曾指尖弹出盛夏。。。。  
 //起风了，如今走过这世间，万般留恋，翻过世界不通过笑脸
 const app = getApp()
 const TOKEN_URL = 'token/add';
@@ -11,7 +11,8 @@ Page({
     motto: 'Hello',
     userInfo: {},
     hasUserInfo: false,
-    canIUse: true
+    canIUse: true,
+    scale:1
   },
   //事件处理函数
   bindViewTap: function() { 
