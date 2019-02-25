@@ -45,4 +45,5 @@ button::after{
   background: linear-gradient(to right,red, blue);
   color: blue;
 }
+/*===========movable-view和movable-area测试=================*/
 

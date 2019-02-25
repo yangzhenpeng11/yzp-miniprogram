@@ -12,6 +12,8 @@
   </view>
 </view>
 
-<form report-submit='true' bindsubmit='onSubmit'>
+<!-- <form report-submit='true' bindsubmit='onSubmit'>
   <button class='buttonBG' hover-class='button-hover' form-type='submit'  value='yang-zhen-peng' name='messageKey'>测试按钮</button>
-</form>
+</form> -->
+
+
